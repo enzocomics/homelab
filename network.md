@@ -27,6 +27,7 @@ iface vmbr1v2 inet static
     bridge-fd 0
 # Bridge tagged with VLAN 2
 ```
+- Reference: [Proxmox Documentation](https://pve.proxmox.com/wiki/Network_Configuration#sysadmin_network_vlan)
 # Network Setup - Cloud INIT + Network Manager
 - `nmtui`: Terminal UI for network manager
 - Set up a VLAN with an ID of `10` with `eth0` as the parent interface:
