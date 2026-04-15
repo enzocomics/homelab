@@ -5,7 +5,7 @@ apt install nut-client nut-server -y
 ```
 systemctl disable --now nut-server
 ```
-Edit `/etc/nut/nutc.conf`:
+Edit `/etc/nut/nut.conf`:
 ```
 MODE=netclient
 ```
