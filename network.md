@@ -38,3 +38,8 @@ sudo nmcli connection up vlan10
 sudo nmcli connection modify eth0 ipv4.method disabled  
 sudo nmcli connection down eth0
 ```
+
+# Network Setup - Netplan
+If `nmlci` or `nmtui` are not installed:
+- Edit `/etc/netplan/00-installer-config.yaml` (in Ubuntu)
+- Apply the new configuration: `netplan apply`
