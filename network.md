@@ -43,3 +43,4 @@ sudo nmcli connection down eth0
 If `nmlci` or `nmtui` are not installed:
 - Edit `/etc/netplan/00-installer-config.yaml` (in Ubuntu)
 - Apply the new configuration: `netplan apply`
+- Reference: https://linuxvox.com/blog/ubuntu-network-settings-command-line/
